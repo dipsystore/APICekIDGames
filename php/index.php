@@ -14,7 +14,7 @@ $data = [
 
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "https://api.dipsystore.com/api/v1/check-game");
+curl_setopt($ch, CURLOPT_URL, "https://api.dipsy.id/api/v1/check-game");
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
